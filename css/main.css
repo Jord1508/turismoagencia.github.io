@@ -298,7 +298,7 @@ header {
         margin-bottom: 50px; }
         header nav.active .items-menu-nav ul li a {
           opacity: 0;
-          animation-name: fadeIn;
+          animation-name: fadeInMenuItem;
           animation-duration: 0.2s;
           animation-iteration-count: 1;
           animation-fill-mode: forwards;
@@ -317,7 +317,7 @@ header {
           animation-delay: 0.78s; }
         header nav.active .items-menu-nav ul li:nth-child(7n) > a {
           animation-delay: 0.91s; }
-@keyframes fadeIn {
+@keyframes fadeInMenuItem {
   from {
     opacity: 0;
     left: -100px; }

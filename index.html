@@ -1,8 +1,16 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-<?php include "header.php"; ?>
-
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+</head>
 <body>
+<header></header>
 <section class="baner baner-principal">
     
     <div class="baner-carousel-home owl-carousel ">
@@ -38,7 +46,12 @@
 </footer>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script>
+       
     $(document).ready(function(){
+
+        $('head').load('header-extend.html');
+        $('header').load('header.html');
+
         $(".baner-carousel-home").owlCarousel({
             loop:true,
             autoplay:true,

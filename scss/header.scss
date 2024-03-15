@@ -201,7 +201,7 @@ header{
                     li {
                         a{
                             opacity: 0;
-                            animation-name: fadeIn;
+                            animation-name: fadeInMenuItem;
                             animation-duration: 0.2s;
                             animation-iteration-count: 1;
                             animation-fill-mode: forwards;
@@ -217,7 +217,7 @@ header{
 
                 }
                      
-                @keyframes fadeIn {
+                @keyframes fadeInMenuItem {
                     from {
                         opacity: 0;
                         left: -100px;
